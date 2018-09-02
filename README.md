@@ -9,5 +9,26 @@ The custom scrollview to handle multiple views easy.
   
 # Insert a View into SKScrollView:
 
-  let view = UIView(frame: CGRect(x: 0, y: 0, width: scrollView.frame.size.width, height: 200.0))
+  You can use below lines to insert new view into scrollview. This scrollview automatically adjusts the contentSize.
+
+  ```
+  let view = UIView(frame: CGRect(x: 0, y: 0, width: yourScrollView.frame.size.width, height: 200.0))
+  view.backgroundColor = .orange
+  
+  yourScrollView.insertNewSubView(view, atIndex: index, scrollToView: true)
+  ```
+ 
+# Delete a View from SKScrollView:
+
+  1. Deleting view by it's index.
+  
+  ```
+  yourScrollView.deleteSubView(atIndex: index)
+  ```
+  
+  2. Deleting view by it's own reference.
+  
+  ```
+  yourScrollView.deleteSubView(view)
+  ```
   
