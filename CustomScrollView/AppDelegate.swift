@@ -3,7 +3,7 @@
 //  CustomScrollView
 //
 //  Created by SaTHEEsH KaNNaN on 05/05/17.
-//  Copyright © 2017 Innoppl Technologies. All rights reserved.
+//  Copyright © 2017 SKannaniOS. All rights reserved.
 //
 
 import UIKit
